@@ -1,3 +1,7 @@
+# In this file, I compare the predictive ability of a logistical regression
+# and a neural network in R, using a limited set of variables: age, race, gender, and whether
+# the person has quit smoking.
+
 library(readxl)
 #Set working directory
 setwd('c:/Users/Nelson.Chung/Downloads/')
