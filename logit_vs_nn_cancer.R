@@ -33,7 +33,7 @@ library(neuralnet)
 
 f <- as.formula(cancer ~ .)
 
-#Create categoricals \
+#Create categoricals 
 cancer_encoded <- model.matrix(cancer ~ age + gender + race + smoker, data = cancer)
 cancer_encoded <- data.frame(cancer <- cancer$cancer,cancer_encoded)
 
